@@ -1,0 +1,19 @@
+.darkBG{
+	background: #999;
+}
+
+.darkerBG{
+	background: #666;
+}
+
+.darkestBG{
+	background: #333;
+}
+
+.navbarbg{
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+*{
+    transition: all .5s;
+}

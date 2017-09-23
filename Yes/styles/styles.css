@@ -1,0 +1,10 @@
+.alexmwangisvictums{
+	background:#607D8B;
+	padding: 20px;
+	border-radius: 20px;
+	border-color: white;
+	border-width: 5px;
+	border-style: solid;
+}
+
+*{transition: .5s}
