@@ -1,0 +1,50 @@
+﻿*{transition: all .5s; word-wrap:break-word; animation: begin .2s ease-in-out}
+@keyframes begin{
+    from{
+        opacity: 0;
+    }
+}
+.navbarbutton {
+	color: black;
+	font-family: "Segoe UI";
+	padding: 10px;
+}
+.navbarbutton:hover {
+	font-family: "Segoe UI";
+	box-shadow: 0px -2px #1B5E20 inset;
+	text-decoration: none;
+}
+.navbarbutton-cur {
+	font-family: "Segoe UI";
+	color: #1B5E20;
+	box-shadow: 0px -3px #000066 inset ;
+}
+.navbarbutton:active {
+	font-family: "Segoe UI";
+	color: #FFFFFF;
+	background-color: #1B5E20;
+}
+.newsbanner {
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 10px;
+}
+
+.wachu-green {
+	background-color:  #1B5E20;
+	color:white;
+}
+.wachu-green-header {
+	background-color:#337337;
+}
+
+
+.upcoming-events-header{
+	padding: 5px;
+	text-align: center;
+}
+
+.upcoming-events-row{
+	border: 2px #1B5E20 solid;
+}

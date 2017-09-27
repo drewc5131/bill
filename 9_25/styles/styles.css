@@ -1,7 +1,39 @@
-﻿*{transition: all .5s;word-wrap:break-word}
+﻿*{transition: all .5s;word-wrap:break-word; animation: begin .2s ease-in-out}
 
 .xdmaster{}
 
 .badge{
   box-shadow: 0 0 6px black;
+}
+.parent {
+	padding: 3px;
+	margin: auto;
+	display: flex;
+    background-color: #626262;
+    flex-direction: row;
+}
+.child {
+	padding: 10px;
+	margin: 10px;
+	height: 100px;
+	line-height:100px;
+	background-color:#423CC4;
+	color:white;
+	flex-grow: 1;
+}
+
+.child:nth-of-type(1){
+	order:2;
+}
+.child:nth-of-type(2){
+    order:3;
+}
+.child:nth-of-type(3){
+    order:1;
+}
+
+@keyframes begin{
+    from{
+        opacity: 0;
+    }
 }
