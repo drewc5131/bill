@@ -4,6 +4,17 @@
         opacity: 0;
     }
 }
+@keyframes dropdown{
+	from{
+		transform: translate(0px, -10px);
+		opacity: 0;
+	}
+}
+
+.dropdown-menu{
+	animation: dropdown .2s ease-in-out;
+}
+
 .navbarbutton {
 	color: black;
 	font-family: "Segoe UI";
