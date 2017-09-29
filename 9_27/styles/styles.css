@@ -63,12 +63,24 @@
     padding: 6px;
 }
 
-.upcoming-events-separator {
+.upcoming-events-separator{
     padding: 2px 0 2px 0;
     margin: auto;
+    width: 100%;
     background-color: #1B5E20;
+}
+
+hr {
+    width: 60%;
+    background-color: rgba(27, 94, 32, 0.60);
 }
 
 .upcoming-events-name{
     margin: auto;
+}
+
+.link {
+    color: #134917;
+    font-weight: bold;
+    text-decoration: underline;
 }
