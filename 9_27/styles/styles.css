@@ -11,6 +11,12 @@
 	}
 }
 
+p{
+    font-size: 14px;
+}
+
+h1{font-size: 30px;}
+
 .dropdown-menu{
 	animation: dropdown .2s ease-in-out;
 }
@@ -20,6 +26,7 @@
 	font-family: "Segoe UI";
 	padding: 10px;
 }
+
 .navbarbutton:hover {
 	font-family: "Segoe UI";
 	box-shadow: 0px -2px #1B5E20 inset;
@@ -48,6 +55,7 @@
 }
 .wachu-green-header {
 	background-color:#337337;
+    padding: 1px;
 }
 
 .upcoming-events {
