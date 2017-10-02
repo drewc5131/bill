@@ -1,5 +1,5 @@
 ﻿* {
-    transition: all .5s ease-in-out;
+    transition: all .5s;
     word-wrap: break-word;
     animation: begin .2s ease-in-out;
 }
@@ -97,4 +97,9 @@ hr {
     color: #134917;
     font-weight: bold;
     text-decoration: underline;
+}
+
+.footerText{
+    color:white;
+    text-align: center
 }
