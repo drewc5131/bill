@@ -1,8 +1,12 @@
-﻿* {
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
     transition: all .5s;
     word-wrap: break-word;
     animation: begin .2s ease-in-out;
+    font-family: 'Roboto', sans-serif;
 }
+
 @keyframes begin{
     from{
         opacity: 0;
@@ -28,25 +32,30 @@ h1{font-size: 30px;}
 }
 
 .navbarbutton {
-	color: black;
-	font-family: "Segoe UI";
-	padding: 10px;
+    color: black;
+    font-family: "Segoe UI";
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbarbutton:hover {
-	font-family: "Segoe UI";
-	box-shadow: 0px -2px #1B5E20 inset;
-	text-decoration: none;
+    font-family: "Segoe UI";
+    box-shadow: 0px -2px #1B5E20 inset;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
 }
+
 .navbarbutton-cur {
-	font-family: "Segoe UI";
-	color: #1B5E20;
-	box-shadow: 0px -3px #000066 inset ;
+    font-family: "Segoe UI";
+    color: #1B5E20;
+    box-shadow: 0px -3px #000066 inset;
+    font-family: 'Roboto', sans-serif;
 }
 .navbarbutton:active {
-	font-family: "Segoe UI";
-	color: #FFFFFF;
-	background-color: #1B5E20;
+    font-family: "Segoe UI";
+    color: #FFFFFF;
+    background-color: #1B5E20;
+    font-family: 'Roboto', sans-serif;
 }
 .newsbanner {
 	text-transform: uppercase;
@@ -55,10 +64,11 @@ h1{font-size: 30px;}
 	padding: 10px;
 }
 
-    .wachu-green {
-	    background-color:  #1B5E20;
-	    color:white;
-    }
+.wachu-green {
+	background-color:  #1B5E20;
+	color:white;
+}
+
 .wachu-green-header {
 	background-color:#337337;
     padding: 1px;
@@ -105,6 +115,11 @@ hr {
 }
 
 
+.staff-dir-2 {
+    background-color: #134917;
+    color: white;
+}
+
 
 
 /*Loading thing*/
@@ -114,6 +129,7 @@ hr {
     height: 40px;
     text-align: center;
     font-size: 10px;
+    animation: none !important;
 }
 
     .spinner > div {
