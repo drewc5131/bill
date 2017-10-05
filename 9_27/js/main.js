@@ -9,3 +9,23 @@ document.onreadystatechange = function () {
 
     if (document.readyState == 'complete') {load();}
 }
+
+
+var isMeme = false;
+
+function togglememe() {
+    if (!isMeme) {
+        var el = document.querySelectorAll('*');
+        for (var i = 0; i < el.length; i++) {
+            el[i].style.fontFamily = 'Comic Sans MS';
+        }
+        isMeme = true;
+    }
+    else {
+        var el = document.querySelectorAll('*');
+        for (var i = 0; i < el.length; i++) {
+            el[i].style.fontFamily = "'Roboto', sans-serif"
+        }
+        isMeme = false;
+    }
+}
