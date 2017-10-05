@@ -55,10 +55,10 @@ h1{font-size: 30px;}
 	padding: 10px;
 }
 
-.wachu-green {
-	background-color:  #1B5E20;
-	color:white;
-}
+    .wachu-green {
+	    background-color:  #1B5E20;
+	    color:white;
+    }
 .wachu-green-header {
 	background-color:#337337;
     padding: 1px;
