@@ -1,0 +1,33 @@
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(face.jpeg/img/jumbotronbackground.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+h5 {
+  background-color: lime;
+  padding: 20px 50px;
+}
+
+*{
+    animation: jeff .5s alternate infinite;
+}
+
+@keyframes jeff{
+    0%{
+        background-color:green;
+    }
+     25%{
+         background-color: red;
+     }
+     75%{
+         background-color: blue;
+     }
+     100%{
+         background-color: green;
+     }
+}
