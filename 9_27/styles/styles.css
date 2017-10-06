@@ -1,7 +1,7 @@
 ﻿@import url('https://fonts.googleapis.com/css?family=Roboto');
 @font-face {
-    font-family: 'comicsansxd';
-    src: url(https://github.com/drewc5131/bill/tree/master/9_27/assets/comic.ttf) format("truetype");
+    font-family: 'Comic Sans MS';
+    src: url(https://github.com/drewc5131/bill/blob/master/9_27/assets/comic.ttf) format("truetype");
 }
 
 * {

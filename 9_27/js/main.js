@@ -17,7 +17,7 @@ function togglememe() {
     if (!isMeme) {
         var el = document.querySelectorAll('*');
         for (var i = 0; i < el.length; i++) {
-            el[i].style.fontFamily = 'comicsansxd';
+            el[i].style.fontFamily = 'Comic Sans MS';
         }
         isMeme = true;
     }
