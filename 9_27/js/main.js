@@ -1,5 +1,6 @@
 function load() {
-    console.warn("load() is depreciated! should probably remove xd")
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("content").style.display = "block";
 }
 
 
@@ -83,9 +84,6 @@ function washington() {
         
 }
 
-
-// Animsition start
-// Does the proper page transitions
 $(document).ready(function () {
     $(".animsition").animsition({
         inClass: 'fade-in-up-sm',
@@ -93,10 +91,10 @@ $(document).ready(function () {
         inDuration: 800,
         outDuration: 500,
         linkElement: 'a:not([target="_blank"]):not([href^="#"])',
-        loading: true,
+        loading: false,
         loadingParentElement: 'body',
         loadingClass: 'animsition-loading',
-        loadingInner:'',
+        loadingInner: '',
         timeout: false,
         timeoutCountdown: 5000,
         onLoadEvent: true,
