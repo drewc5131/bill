@@ -95,7 +95,7 @@ $(document).ready(function () {
         loadingParentElement: 'body',
         loadingClass: 'animsition-loading',
         loadingInner: '',
-        timeout: false,
+        timeout: true,
         timeoutCountdown: 5000,
         onLoadEvent: true,
         browser: ['animation-duration', '-webkit-animation-duration'],
