@@ -1,6 +1,5 @@
 function load() {
-    document.getElementById("loader").style.display = "none";
-    document.getElementById("content").style.display = "block";
+    console.warn("load() is depreciated! should probably remove xd")
 }
 
 
@@ -83,3 +82,28 @@ function washington() {
         "<img width=\"100%\" height=\"400px\" src=\"https://upload.wikimedia.org/wikipedia/commons/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg\"/>";
         
 }
+
+
+// Animsition start
+// Does the proper page transitions
+$(document).ready(function () {
+    $(".animsition").animsition({
+        inClass: 'fade-in-up-sm',
+        outClass: 'fade-out-down-sm',
+        inDuration: 800,
+        outDuration: 500,
+        linkElement: 'a:not([target="_blank"]):not([href^="#"])',
+        loading: true,
+        loadingParentElement: 'body',
+        loadingClass: 'animsition-loading',
+        loadingInner:'',
+        timeout: false,
+        timeoutCountdown: 5000,
+        onLoadEvent: true,
+        browser: ['animation-duration', '-webkit-animation-duration'],
+        overlay: false,
+        overlayClass: 'animsition-overlay-slide',
+        overlayParentElement: 'body',
+        transition: function (url) { window.location.href = url; }
+    });
+});

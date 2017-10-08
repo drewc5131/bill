@@ -11,6 +11,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.css" />
 </head>
 <body>
 
@@ -25,7 +28,7 @@
 
                     <a href="index.html" class="navbarbutton">Home</a>
                     <div class="btn-group">
-                        <a class="navbarbutton dropdown-toggle" href="#" role="button" id="acedemicsDrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Acedemics</a>
+                        <div class="navbarbutton dropdown-toggle" href="#" role="button" id="acedemicsDrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Acedemics</div>
                         <!--Acedemics-->
                         <div class="dropdown-menu" style="border-radius: 0px; background-color: #f8f9fa; border: 0px" aria-labelledby="acedemicsDrop">
                             <h6 class="dropdown-header">Acedemics</h6>
@@ -41,20 +44,15 @@
             </div>
         </nav>
     </header>
-    <div id="loader" class="spinner">
-        <div class="rect1"></div>
-        <div class="rect2"></div>
-        <div class="rect3"></div>
-        <div class="rect4"></div>
-        <div class="rect5"></div>
-    </div>
-
-    <div id="content" style="display: none;">
-        <div class="wachu-green-header">
-            <div class="container">
-                <img src="assets/wrhsheader920.jpg" width="100%">
-            </div>
+    <div class="wachu-green-header">
+        <!--Header: wachu-green-header fills the background with the same green as is in the wrhsheader920.jpg
+            to make it seamless across all widths-->
+        <div class="container">
+            <img src="assets/wrhsheader920.jpg" width="100%">
         </div>
+    </div>
+    <div id="content" class="animsition">
+        
         <br />
 
         <div class="container">
