@@ -60,9 +60,11 @@ h1{font-size: 30px;}
 .navbarbutton:active {
     font-family: "Segoe UI";
     color: #FFFFFF;
-    background-color: #1B5E20;
+    box-shadow: 0px -50px #1B5E20 inset;
     font-family: 'Roboto', sans-serif;
 }
+
+
 .newsbanner {
     text-transform: uppercase;
     color: #FFFFFF;

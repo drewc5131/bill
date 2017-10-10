@@ -40,6 +40,10 @@ function toggleLabaire() {
         el[i].style.fontFamily = 'Times New Roman';
         el[i].style.color = 'black';
     }
+    var allimgs = document.querySelectorAll('img');
+    for (var i = 0; i < el.length; i++) {
+        allimgs[i].src = 'thisisntreal.png';
+    }
 }
 
 function dibenedetto() {
