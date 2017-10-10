@@ -60,9 +60,11 @@ h1{font-size: 30px;}
 .navbarbutton:active {
     font-family: "Segoe UI";
     color: #FFFFFF;
-    background-color: #1B5E20;
+    box-shadow: 0px -50px #1B5E20 inset;
     font-family: 'Roboto', sans-serif;
 }
+
+
 .newsbanner {
     text-transform: uppercase;
     color: #FFFFFF;
@@ -91,6 +93,10 @@ h1{font-size: 30px;}
 	padding: 5px;
 	text-align: center;
 }
+
+ .upcoming-events-header:hover {
+    box-shadow: 0px 6px 20px 0px #868e96;
+  }
 
 .upcoming-events-row{
     padding: 6px;
