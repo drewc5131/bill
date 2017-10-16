@@ -94,7 +94,7 @@ function washington() {
 } 
 
 function setDark() {
-    document.cookie = "wantDark=true";
+    toggleDark(true);
     var link = document.createElement('link');
     link.setAttribute('rel', 'stylesheet');
     link.type = 'text/css';
@@ -103,7 +103,7 @@ function setDark() {
 }
 
 function setLight() {
-    document.cookie = "wantDark=false";
+    toggleDark(false);
     window.location.reload();
 }
 
