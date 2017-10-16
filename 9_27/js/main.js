@@ -6,16 +6,12 @@ function load() {
 
 // When the page is fully loaded, it calls the load() function, which hides the loading icon and shows the rest of the content
 document.onreadystatechange = function () {
-
-    if (document.readyState == 'complete') {load();}
-}
-window.onload = function () {
     if (document.cookie == "wantDark=true") {
         setDark()
     }
     else {
-        
     }
+    if (document.readyState == 'complete') {load();}
 }
 
 var isMeme = false;
@@ -106,6 +102,10 @@ function setDark() {
     document.head.appendChild(link);
 }
 
+function setLight() {
+    document.cookie = "wantDark=false";
+    window.location.reload();
+}
 
 function toggleDark(wantDark) {
     document.cookie = "wantDark=" + wantDark;
