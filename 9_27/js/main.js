@@ -9,7 +9,14 @@ document.onreadystatechange = function () {
 
     if (document.readyState == 'complete') {load();}
 }
-
+window.onload = function () {
+    if (document.cookie == "wantDark=true") {
+        setDark()
+    }
+    else {
+        
+    }
+}
 
 var isMeme = false;
 
@@ -79,21 +86,37 @@ function waire() {
 }
 
 function brewer() {
+	// mr brewer likes bees
     window.location.href = "https://en.wikipedia.org/wiki/Bee";
 }
 
 function washington() {
+	// george washington looking study hall monitor
     document.body.innerHTML = "<h1 style=\"text-align: center\">lets get going! get to class!</h1>" +
         "<img width=\"100%\" height=\"400px\" src=\"https://upload.wikimedia.org/wikipedia/commons/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg\"/>";
         
+} 
+
+function setDark() {
+    document.cookie = "wantDark=true";
+    var link = document.createElement('link');
+    link.setAttribute('rel', 'stylesheet');
+    link.type = 'text/css';
+    link.href = 'styles/styles-dark.css';
+    document.head.appendChild(link);
+}
+
+
+function toggleDark(wantDark) {
+    document.cookie = "wantDark=" + wantDark;
 }
 
 $(document).ready(function () {
     $(".animsition").animsition({
         inClass: 'fade-in-up-sm',
         outClass: 'fade-out-down-sm',
-        inDuration: 800,
-        outDuration: 500,
+        inDuration: 400,
+        outDuration: 250,
         linkElement: 'a:not([target="_blank"]):not([href^="#"])',
         loading: false,
         loadingParentElement: 'body',

@@ -1,0 +1,15 @@
+﻿.dabbutton {
+    -webkit-appearance: button;
+    background-color: dodgerblue;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+*{
+    font-family: 'Segoe UI'
+}
+
+body{
+    background-color: black;
+}
