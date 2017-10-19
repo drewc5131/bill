@@ -7,9 +7,15 @@
 }
 
 *{
-    font-family: 'Segoe UI'
+    font-family: 'Segoe UI';
+    transition: all .5s;
 }
 
 body{
-    background-color: black;
+    background-color: white;
+}
+
+.colorPicker{
+    padding: 0px;
+    border: 1px solid black;
 }
