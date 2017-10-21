@@ -32,6 +32,7 @@
     color: black;
     font-size: 24px;
     transition: transform .5s cubic-bezier(0.46, 1.8, 0.51, 1);
+    margin: 1px 10px
 }
 
 .button:hover {
@@ -51,7 +52,7 @@
     background-image: url("../assets/buttons_play.png");
     background-size: 100% 100%;
     padding: 25px 50px 30px;
-    margin: 0px 50px 0px 0px;
+    margin: 0px 55px 0px 0px;
     transform: scale(2.4) translate(-5px, 10px);
     transition: transform .5s cubic-bezier(0.46, 1.8, 0.51, 1);
 }
@@ -64,4 +65,95 @@
     position: fixed;
     right: 0;
     left: 0;
+    float: left;
+    width: 100%;
+    background-color: #1a5493;
+    z-index: 9999;
+}
+
+.navbaritem {
+    
+}
+
+.topBg {
+    background-image: url("../assets/background_entering.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.sectionHeader {
+    text-align: center;
+    text-shadow: 3px 3px 1px rgba(10,10,10,0.25);
+}
+
+/*News*/
+.newsBox {
+    background-image: url("../assets/gags_pattern.png");
+    width: 100%;
+    max-width: 100%;
+    margin: 0px;
+    background-attachment: fixed;
+    padding: 40px;
+}
+
+.newsHeader {
+    text-align: center;
+    font-size: x-large;
+    text-shadow: 3px 3px 1px rgba(10,10,10,0.25);
+}
+
+.newsItem {
+    box-shadow: 7px 7px 1px rgba(10,10,10,0.25);
+    border-radius: 0px;
+    border: none;
+    margin: 5px;
+}
+
+.newsImage{
+    border-radius: 10px;
+}
+
+
+.whiteHeader {
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 1px rgba(10,10,10,0.25);
+}
+.newsPostDate {
+    font-family: Roboto;
+}
+
+.newsMoreButton:hover {
+    box-shadow: 3px 3px 1px rgba(10,10,10,0.25);
+}
+
+.newsMoreButton:focus {
+    box-shadow: none;
+}
+
+.card-header, .card-footer{
+    background-color: rgba(0, 0, 0, 0)
+}
+
+/*Info*/
+.infoBox{
+    padding: 40px;
+}
+
+.infoVideo {
+    border: solid white 15px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 1px rgba(10,10,10,0.25);
+}
+
+.review{
+    font-family: Roboto;
+}
+
+.reviewRight{
+    text-align: right;
+}
+
+.reviewCitation{
+    font-family: Roboto
 }

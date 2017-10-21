@@ -8,37 +8,185 @@
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-	    <title>Toontown</title>
+	    <title>BengrowsiTown Online</title>
 	    <link rel="stylesheet" href="styles/styles.css"/>
         <script src="js/js.js"></script>
        
     </head>
-    <body>
+    <body class="topBg">
 
         <header>
-            <nav class="navbar navbar-default navbar-fixed-top bg-light">
-                <a class="button" href="index.html">Home</a>
-                <a class="playBtn" href="play.html"></a>
+            <nav class="navbar">
+                <a class="navbaritem button" href="index.html">Home</a>
+                <a class="navbaritem playBtn" href="play.html"></a>
             </nav>
         </header>
-        <br /><br /><br /><br /><br />            
+        <br /><br /><br /><br /><br />     
 
-        <audio autoplay="True" src="assets/theme.mp3"></audio>
         <div class="container">
             <div class="landing-top">
-                <img width="100%" src="assets/Toontown-Logo.svg" />
+                <img width="100%" src="assets/toontown-logo.png" />
             </div>
         </div>
-        <br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="pgContentItem" style="text-align: center">Welcome to Toontown!</h1>
+                    <h1 class="pgContentItem" style="text-align: center">Welcome to BengrowsiTown Online!</h1>
                     <h6 class="pgContentItem" style="text-align: center">Sponsored by Louis Bangrazi</h6>
                 </div>
+                </div>
+                <br /><br />
+        </div>
+
+        <div id="newsBox" class="container newsBox">
+            <h1 class="sectionHeader">Latest News</h1>
+
+            <div class="row">
+
+                <div class="col-md-3 card newsItem">
+                    <h1 class="newsHeader card-header">The Halloween Update</h1>
+
+                    <div class="card-body">
+                        <img class="newsImage" width="100%" src="assets/news/halloween_update.jpg"/>
+                    </div>
+
+                    <div class="card-footer">
+                        <cite class="newsPostDate">Posted by Jeff on October 20, 2017 at 4:20 PM</cite>
+                        <a href="news/halloween_update.html" class="btn btn-primary newsMoreButton">Read More</a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 card newsItem">
+                    <h1 class="newsHeader card-header">Hit a nasty nae nae!</h1>
+
+                    <div class="card-body">
+                        <img class="newsImage" width="100%" src="assets/news/naenae.png" />
+                    </div>
+
+                    <div class="card-footer">
+                        <cite class="newsPostDate">Posted by Jeff on October 11, 2017 at 4:20 PM</cite>
+                        <a href="news/halloween_update.html" class="btn btn-primary newsMoreButton">Read More</a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 card newsItem">
+                    <h1 class="newsHeader card-header">Dab on the whip nae nae!</h1>
+
+                    <div class="card-body">
+                        <img class="newsImage" width="100%" src="assets/news/dab.png" />
+                    </div>
+
+                    <div class="card-footer">
+                        <cite class="newsPostDate">Posted by Jeff on September 5, 2017 at 4:20 PM</cite>
+                        <a href="news/halloween_update.html" class="btn btn-primary newsMoreButton">Read More</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="infoBox" class="container infoBox">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1 class="whiteHeader">What's this game about?</h1>
+                    <p class="whiteHeader">
+                        Bengrowsi town an online violent video game where you be in world of bengrowsi
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <div class="embed-responsive infoVideo embed-responsive-16by9">
+                        <iframe width="790" height="456" src="https://www.youtube.com/embed/XSCLjT3rEKc?rel=0" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                  </div>
             </div>
         </div>
-        <br /><br />
+
+        <div id="reviews" class="container reviewBox newsBox">
+            <h1 class="sectionHeader">What have people said?</h1>
+            <br />
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-md-2">
+                        <img class="img-fluid rounded-circle" src="assets/reviewers/beando.jpg" />
+                    </div>
+                    <div class="col-md-10">
+                        <h2 class="review">"this game is very good for the students. it allows them to hit nasty nae-naes while learning how to cooperate with others on projects"</h2>
+                        <br />
+                        <p class="reviewCitation">-William Beando</p>
+                    </div>
+                </div>
+
+                <br /><br />
+
+                <div class="row">
+                    <div class="col-md-10">
+                        <h2 class="review reviewRight">"hehe i like that"</h2>
+                        <br />
+                        <p class="reviewCitation reviewRight">-LL Pe&ntilde;a</p>
+                    </div>
+                    <div class="col-md-2">
+                        <img class="img-fluid rounded-circle" src="assets/reviewers/llscheme.jpg" />
+                    </div>
+                </div>
+
+                <br /><br />
+
+                <div class="row">
+                    <div class="col-md-2">
+                        <img class="img-fluid rounded-circle" src="assets/reviewers/penning.jpg" />
+                    </div>
+                    <div class="col-md-10">
+                        <h2 class="review">"Where's ya boi alex?"</h2>
+                        <br />
+                        <p class="reviewCitation">-Grace Penning</p>
+                    </div>
+                </div>
+
+                <br /><br />
+
+                <div class="row">
+                    <div class="col-md-10">
+                        <h2 class="review reviewRight">"Ik vind dit spel heel erg leuk. Het laat me toe om mijn innerlijke bengrowsi uit te drukken"</h2>
+                        <br />
+                        <p class="reviewCitation reviewRight">-Schemer-Jan Velaers</p>
+                    </div>
+                    <div class="col-md-2">
+                        <img class="img-fluid rounded-circle" src="assets/reviewers/schemerjan.jpg" />
+                    </div>
+                </div>
+
+                <br /><br />
+
+                <div class="row">
+                    <div class="col-md-2">
+                        <img class="img-fluid rounded-circle" src="assets/reviewers/mike.jpg" />
+                    </div>
+                    <div class="col-md-10">
+                        <h2 class="review">"I TOLD JASON NOT TO COME UP!"</h2>
+                        <br />
+                        <p class="reviewCitation">-Mike Tortellini</p>
+                    </div>
+                </div>
+
+                <br /><br />
+
+                <div class="row">
+                    <div class="col-md-10">
+                        <h2 class="review reviewRight">"My one complaint is that there is no way to really razzle and dazzle"</h2>
+                        <br />
+                        <p class="reviewCitation reviewRight">-Denise Aldrich</p>
+                    </div>
+                    <div class="col-md-2">
+                        <img class="img-fluid rounded-circle" src="assets/reviewers/denise.jpg" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
 
     </body>
 </html>
