@@ -25,12 +25,32 @@ p{
 
 h1{font-size: 30px;}
 
-.dropdown-menu{
-	animation: dropdown .2s ease-in-out;
+.dropdown-menu {
+    animation: dropdown .2s ease-in-out;
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 0px 0px 5px 5px;
+    padding: 0px;
 }
 
 .dropdown-item:active{
     background-color: white;
+}
+.navbar {
+    position: fixed;
+    right: 0;
+    left: 0;
+    float: left;
+    width: 100%;
+    z-index: 9999;
+    padding: 0px 20px 0px 20px;
+}
+
+.navbaritem {
+    
+}
+
+.navbar.scrolled {
 }
 
 .navbarbutton {

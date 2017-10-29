@@ -1,0 +1,31 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.sectionHeader {
+    border: solid#d4d4d4;
+    background-color: #d4d4d4;
+    color: #000000;
+    margin: 0px;
+}
+
+.sectionBody {
+    border: solid #d4d4d4;
+}
+
+.sectionHeaderDark {
+    border: solid #242424;
+    background-color: #242424;
+    color: #ffffff;
+}
+
+.sectionBodyDark {
+    border: solid #242424;;
+}
+
+.section {
+    padding: 10px
+}
+
+.sectionList{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

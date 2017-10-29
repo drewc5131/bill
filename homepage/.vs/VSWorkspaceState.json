@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\css",
+    "\\styles"
   ],
+  "SelectedNode": "\\css\\font-awesome.css",
   "PreviewInSolutionExplorer": false
 }
