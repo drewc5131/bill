@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery-slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="js/main.js"></script>
+    <script src="js/js.js"></script>
+    <script src="js/animsition.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.css" />
+    <title>WRHS Information</title>
+    <link rel="icon" type="image/png" href="assets/wlogo.png">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCol" aria-controls="navbarCol" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <img src="assets/wlogo.png" height="50px" width="50px" class="navbar-brand" />
+            <div class="collapse navbar-collapse" id="navbarCol">
+                <div class="navbar-nav">
+
+                    <a href="index.html" class="navbarbutton animsition-link">Home</a>
+                    <div class="nav-item btn-group-vertical dropdown">
+                        <a class="navbarbutton dropdown-toggle" href="#" role="dropdown" id="acedemicsDrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Acedemics</a>
+                        <!--Acedemics-->
+                        <!--Dropdown menu for ACEDEMICS-->
+
+                        <div class="dropdown-menu" aria-labelledby="acedemicsDrop">
+                            <a class="dropdown-item navbarbutton animsition-link" href="mathfaculty.html">Math</a>
+                            <a class="dropdown-item navbarbutton animsition-link" href="socialstudiesfaculty.html">Social Studies</a>
+                            <a class="dropdown-item navbarbutton animsition-link" href="expectations.html">Learning Expectations, Core Values</a>
+                            <a class="dropdown-item navbarbutton animsition-link" href="artfaculty.html">Art</a>
+                            <a class="dropdown-item navbarbutton animsition-link" href="englishfaculty.html">English</a>
+                            <a class="dropdown-item navbarbutton animsition-link" href="#">Foreign Languages</a>
+                            <a class="dropdown-item navbarbutton animsition-link" href="#">Music</a>
+                            <a class="dropdown-item navbarbutton animsition-link" href="#">Partnership Programs</a>
+                            <a class="dropdown-item navbarbutton animsition-link" href="#">Physical Education</a>
+                            <a class="dropdown-item navbarbutton animsition-link" href="#">Science</a>
+                            <a class="dropdown-item navbarbutton animsition-link" href="#">Advance Placement</a>
+                        </div>
+
+                    </div>
+                    <a href="clubs.html" class="navbarbutton animsition-link">Clubs and Activities </a>
+                    <a href="http://ps.wrsd.net/" class="navbarbutton animsition-link">PowerSchool Login</a>
+                    <a href="staffdirectory.html" class="navbarbutton animsition-link">Staff Directory</a>
+                    <a href="basicinfo.html" class="navbarbutton navbarbutton-cur animsition-link">Information</a>
+                    <a href="morelinks.html" class="navbarbutton animsition-link">More Links</a>
+
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="wachu-green-header">
+        <!--Header: wachu-green-header fills the background with the same green as is in the wrhsheader920.jpg
+            to make it seamless across all widths-->
+        <div class="container">
+            <img src="assets/wrhsheader920.jpg" width="100%">
+        </div>
+    </div>
+    <div id="loader" class="spinner">
+        <svg viewBox="-1 -1 2 2">
+            <circle class="load1" cx="0" cy="0" r=".5" fill="none" ng-attr-stroke="{{config.c1}}" ng-attr-stroke-width="{{config.width}}" stroke="#076d00" stroke-width=".1"></circle>
+            <circle class="load2" cx="0" cy="0" r=".5" fill="none" ng-attr-stroke="{{config.c1}}" ng-attr-stroke-width="{{config.width}}" stroke="#a4a4a4" stroke-width=".1"></circle>
+        </svg>
+    </div>
+    <div id="content" class="animsition">
+        <br />
+
+        <div class="container">
+
+            <div class="row">
+
+
+                <div class="col-md-12 homeinfo">
+                    <h1 class="header">Information</h1>
+
+                    <hr />
+
+                    <details class="header">
+                        <summary class="info-details">Bell Schedules</summary>
+                        <div class="row info-details-content">
+                            <!-- Daily Bell Schedule -->
+                            <div class="col-md-6 col-sm-12">
+                                <p class="header">Daily Bell Schedule</p>
+                                <table class="schedule scheduleDaily table">
+                                    <tr>
+                                        <th>Period</th>
+                                        <th>Start - End</th>
+                                        <th>Length</th>
+
+                                    </tr>
+                                    <tr>
+                                        <td>Warning Bell</td>
+                                        <td>7:27</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>7:35 - 8:23</td>
+                                        <td>48 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>8:28 - 9:16</td>
+                                        <td>48 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>9:21 - 10:14</td>
+                                        <td>48 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>10:19 - 11:07</td>
+                                        <td>48 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>11:12 - 1:17</td>
+                                        <td>2 Hr. 5 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1st Lunch</td>
+                                        <td>11:12 - 11:42</td>
+                                        <td>30 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2nd Lunch</td>
+                                        <td>11:42 - 12:12</td>
+                                        <td>30 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3nd Lunch</td>
+                                        <td>12:12 - 12:42</td>
+                                        <td>30 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4nd Lunch</td>
+                                        <td>12:47 - 1:17</td>
+                                        <td>30 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>1:22 - 2:10</td>
+                                        <td>48 Min.</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <!-- 25 Minute Activity -->
+                            <div class="col-md-6 col-sm-12">
+                                <p class="header">25 Minute Activity</p>
+                                <table class="schedule schedule25 table">
+                                    <tr>
+                                        <th>Period</th>
+                                        <th>Start - End</th>
+                                        <th>Length</th>
+
+                                    </tr>
+                                    <tr>
+                                        <td>Warning Bell</td>
+                                        <td>7:27</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>7:35 - 8:18</td>
+                                        <td>43 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>8:23 - 9:06</td>
+                                        <td>43 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Activity</td>
+                                        <td>9:11 - 9:36</td>
+                                        <td>25 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>9:41 - 10:24</td>
+                                        <td>43 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>10:29 - 11:12</td>
+                                        <td>43 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>11:17 - 1:22</td>
+                                        <td>2 Hr. 5 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1st Lunch</td>
+                                        <td>11:17 - 11:47</td>
+                                        <td>30 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2nd Lunch</td>
+                                        <td>11:47 - 12:17</td>
+                                        <td>30 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3nd Lunch</td>
+                                        <td>12:17 - 12:47</td>
+                                        <td>30 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4nd Lunch</td>
+                                        <td>12:52 - 1:22</td>
+                                        <td>30 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>1:27 - 2:10</td>
+                                        <td>43 Min.</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <!-- 40 Minute Activity -->
+                            <div class="col-md-6 col-sm-12">
+                                <p class="header">40 Minute Activity</p>
+                                <table class="schedule schedule25 table">
+                                    <tr>
+                                        <th>Period</th>
+                                        <th>Start - End</th>
+                                        <th>Length</th>
+
+                                    </tr>
+                                    <tr>
+                                        <td>Warning Bell</td>
+                                        <td>7:27</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>7:35 - 8:15</td>
+                                        <td>40 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>8:20 - 9:00</td>
+                                        <td>40 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Activity</td>
+                                        <td>9:05 - 9:45</td>
+                                        <td>20 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>9:50 - 10:30</td>
+                                        <td>40 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>10:35 - 11:15</td>
+                                        <td>40 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>11:20 - 1:25</td>
+                                        <td>2 Hr. 5 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1st Lunch</td>
+                                        <td>11:20 - 11:50</td>
+                                        <td>30 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2nd Lunch</td>
+                                        <td>11:50 - 12:20</td>
+                                        <td>30 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3nd Lunch</td>
+                                        <td>12:20 - 12:50</td>
+                                        <td>30 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4nd Lunch</td>
+                                        <td>12:55 - 1:25</td>
+                                        <td>30 Min.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>1:30 - 2:10</td>
+                                        <td>40 Min.</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                        </div>
+                    </details>
+
+                    <details class="header">
+                        <summary class="info-details">After School Bus Locations</summary>
+                        <embed class="embed-responsive info-details-content" src="assets/documents/backtoschool/AfterSchoolBusLocations.pdf" height="700px" />
+                    </details>
+                </div>
+            </div>
+
+        </div>
+
+
+        <br />
+
+        <!--Footer-->
+        <footer class="wachu-green-header">
+            <h5 class="footerText">Wachusett Regional High School</h5>
+            <h6 class="footerText">1401 Main Street | Holden MA 01520 | Phone: 508-829-6771 | Fax: 508-829-4895</h6>
+            <p class="footerText">Principal, William P. <span onclick="togglememe()">Beando</span></p>
+        </footer>
+    </div>
+</body>
+</html>
