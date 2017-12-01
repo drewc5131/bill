@@ -1,91 +1,103 @@
-<!doctype HTML>
-<HTML>
-<head> 
-	<link rel="stylesheet" type="text/css" href="styles/test.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links
-  $("a").on('click', function(event) {
 
-    if (this.hash !== "") {
-      
-      event.preventDefault();
-
-      var hash = this.hash;
-
-      
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 800, function(){
-        
-        window.location.hash = hash;
-      });
-    } 
-  });
-});
-</script>
+<!DOCTYPE html>
+<html>
 <head>
+	<meta charset="utf-8" />
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/jInvertScroll.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
 <body>
-	<div id="navtop"> 
-		<div id="logo">
-			<img src="bowl.jpg" alt="bowl"> </img>
+	<div class="container">
+        <div class="header">
+            <div class="logo">
+                    <img src="images/rick.png" onclick="changeAudio()" id="rik" class="img-fluid" style="height: 80px;" alt="rick" />
+            </div>
+        </div>
+			<audio controls="controls" src="wubba.mp3" autoplay loop>
+			</audio>
+			<iframe src="mydriveaddress\test2.mp4" height="0" width="0" allowfullscreen=""></iframe>
+			<audio controls="controls" id="audio1" src="schwifty.mp3" autoplay loop>
+			</audio>
+			<iframe src="mydriveaddress\test2.mp4" height="0" width="0" allowfullscreen=""></iframe>
+		<div class="horizon scroll">
+			<img src="images/horizon2.png" alt="" />
 		</div>
-		<div id="navigation"> 
-			<ol id="nav" > 
-				<li> <a href="#pg1"> Home </a> </li>
-				<li> <a href="#pg2"> Locations </a> </li>
-				<li> <a href="#pg3"> Balls </a> </li>
-				<li> <a href="#pg4"> Shoes </a> </li>
-			</ol>
+		<div id="overlay" style="display:none; width: 100%; height:100%;" > </div>
+		<div id="animegirl1" style="display:none;" > </div>
+		<div id="dance" style="display:none; width: 50%; height:69%;" > </div>
+		<div class="middle scroll">
+			<img src="images/middle2.png" alt="" />
 		</div>
-	</div>
-	<br>
-	<!--page 1--> 
-	<div id="pg1" class="smooth"> 
-		<div id="pt2">
-		We like to bowl!
-		<div id="guy">
-			<img src="guy.jpg" id="guypic" alt="guy"> </img>
+		<div class="frontest scroll">
+			<img src="images/front2.png" alt=""></img>
 		</div>
-		</div>
-	</div>
-	</div>
-	<!--page 2--> 
-		<div id="pg2" class="smooth"> 
-				<br>
-		<div id="pt2">
-		Look at all these locations!
-		<div id="loc">
-			<ul>
-			<li> Montgomery, Alabama </li>
-			<li> Montpelier, Vermont </li>
-			<li> Milwaukee, Wisconsin </li>
-			<li> Manchester, by the Sea </li>
-			</ul>
-		</div>
-		</div>
-		<br>
-	</div>
-	<!--page 3--> 
-	<div id="pg3" class="smooth"> 
-		<div id="pt2">
-		We love balls!
-		<div id="ballpic">
-			<img src="ballz.jpg" id="ballz"> </img>
-		</div>
-		</div>
-	</div>
-	<br>
-	<!--page 4--> 
-		<div id="pg4" class="smooth"> 
-
-		<div id="pt2">
-		We love striped shoes!
-			<div id="schue">
-				<img src="shoes.jpg" id="shoooes"> </img>
+		
+		<div class="front scroll">
+			
+			<div class="description page">
+				<h2>Schwifty 😂😂👌👌</h2>
+				<p>
+					<img src="images/scwifty.png" class="img-fluid" id="meme"></img>
+				</p>
 			</div>
-		</div>
-	</div>
+			
+			<div class="documentation page">
+				<h2>PICKLE RICK XD 😂😂👌👌</h2>
+				<p>
+					<img src="images/pickle.png" class="img-fluid" id="meme"></img> 
+				</p>
+			</div>
+			
+			<div class="options page">
+				<h2>WUBBA LUB DUB DFNASKHASHAHAHAXAXA 😂😂👌👌</h2>
+				<p>
+					<img src="images/WUBBA.png" class="img-fluid" id="meme"></img>
+				</p>
+			</div>
+			
+			<div class="download page">
+				<h2>MEESEEKS RESIGNED! XDXD😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂😂 </h2>
+				<p>
+					<img src="images/meeseek.png" class="img-fluid" id="meme"></img>
+				</p>
+			</div>
+    </div>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/jquery.jInvertScroll.js"></script>
+    <script type="text/javascript">
+		(function($) {
+			$.jInvertScroll(['.scroll'],        // an array containing the selector(s) for the elements you want to animate
+				{
+				height: 5000,                   // optional: define the height the user can scroll, otherwise the overall length will be taken as scrollable height
+				onScroll: function(percent) {   //optional: callback function that will be called when the user scrolls down, useful for animating other things on the page
+					console.log(percent);
+				}
+			});
+		}(jQuery));
+	</script>
+	<script>
+		$(document).ready(function(){
+			$('#rik').click(function () {
+				$('#overlay').toggle();
+				$('#animegirl1').toggle();
+				$('#dance').toggle();
+			});
+		})		
+	</script>
+	<script>
+		function changeAudio() {
+			var audio = document.getElementById('audio1');
+			if (audio.src.match("schwifty")) {
+				audio.src = "schwiftyrip.mp3";
+			} else {
+				audio.src = "schwifty.mp3";
+			}
+		}
+	</script>
 </body>
+</html>
