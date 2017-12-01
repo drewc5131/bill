@@ -1,0 +1,30 @@
+body{
+  background: #f3f3f3;
+}
+nav{
+	color:white;
+	width: 100%;
+	margin: auto;
+	font-size: 30px;
+	background:rgba(1,1,1,0);
+	padding: 1%;
+	transition:font-size 300ms linear;
+	transition:background 300ms linear;
+}
+.navbar-brand{
+	font-size:35px;
+	transition:font-size 300ms linear;
+}
+.toppic{
+	top:0;
+	height:40%;
+}
+#right{
+	margin-right: 1%;
+}
+.container-fluid{
+	padding: 1%;
+}
+p8{
+	font-size: 10px;
+	}

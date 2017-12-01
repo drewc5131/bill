@@ -1,0 +1,53 @@
+body{
+  background: #f3f3f3;
+  height: 1200px;
+}
+nav{
+	color:black;
+	width: 100%;
+	margin: auto;
+	background:#FAFAFA	;
+	font-size: 30px;
+	padding: 1%;
+	transition: background, font-size 300ms linear;
+}
+#help{
+	margin-left: 40%;
+	margin-top: 5%;
+}
+#loco{
+	margin-right: 5%;
+	margin-left: 5%;
+	height: 60%;
+	background: #fafafa;
+	padding: 2%;
+}
+#tip{
+	text-align:center;
+}
+#locolist{
+	font-size: 24px;
+}
+.container-fluid{
+	padding: 1%;
+}
+.navbar-brand{
+	font-size:35px;
+	transition:font-size 300ms linear;
+}
+#obama{
+	height: 30%;
+}
+.row{
+	padding: 1%;
+}
+.faq{
+	padding: 2%;
+}
+#spacer{
+	height: 5%;
+}
+form{
+	padding: 1%;
+	width: 60%;
+}

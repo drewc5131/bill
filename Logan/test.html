@@ -1,0 +1,91 @@
+<!doctype HTML>
+<HTML>
+<head> 
+	<link rel="stylesheet" type="text/css" href="styles/test.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    if (this.hash !== "") {
+      
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+</script>
+<head>
+<body>
+	<div id="navtop"> 
+		<div id="logo">
+			<img src="bowl.jpg" alt="bowl"> </img>
+		</div>
+		<div id="navigation"> 
+			<ol id="nav" > 
+				<li> <a href="#pg1"> Home </a> </li>
+				<li> <a href="#pg2"> Locations </a> </li>
+				<li> <a href="#pg3"> Balls </a> </li>
+				<li> <a href="#pg4"> Shoes </a> </li>
+			</ol>
+		</div>
+	</div>
+	<br>
+	<!--page 1--> 
+	<div id="pg1" class="smooth"> 
+		<div id="pt2">
+		We like to bowl!
+		<div id="guy">
+			<img src="guy.jpg" id="guypic" alt="guy"> </img>
+		</div>
+		</div>
+	</div>
+	</div>
+	<!--page 2--> 
+		<div id="pg2" class="smooth"> 
+				<br>
+		<div id="pt2">
+		Look at all these locations!
+		<div id="loc">
+			<ul>
+			<li> Montgomery, Alabama </li>
+			<li> Montpelier, Vermont </li>
+			<li> Milwaukee, Wisconsin </li>
+			<li> Manchester, by the Sea </li>
+			</ul>
+		</div>
+		</div>
+		<br>
+	</div>
+	<!--page 3--> 
+	<div id="pg3" class="smooth"> 
+		<div id="pt2">
+		We love balls!
+		<div id="ballpic">
+			<img src="ballz.jpg" id="ballz"> </img>
+		</div>
+		</div>
+	</div>
+	<br>
+	<!--page 4--> 
+		<div id="pg4" class="smooth"> 
+
+		<div id="pt2">
+		We love striped shoes!
+			<div id="schue">
+				<img src="shoes.jpg" id="shoooes"> </img>
+			</div>
+		</div>
+	</div>
+</body>
