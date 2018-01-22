@@ -1,0 +1,80 @@
+body{
+	background: #f4f4f4;
+}
+.navbar-brand{
+	margin-top: 0px;
+}
+#slides{
+	height: 65%;
+}
+.carousel,.item,.active{
+   height:120%;
+ }
+.carousel-inner{
+    height:120%;
+}
+#logo{
+	transition: width 300ms linear;
+}
+#desknav{
+	background: rgba(0,0,0,0);
+}
+#con2{
+	background:white;
+}
+#infotab{
+	text-align: center;
+	width: 110%;
+	font-size: .8rem;
+}
+.navbar{
+	background: white;
+	font-size: 24px;
+	transition:background 300ms linear,font-size 300ms linear;
+}
+.navbar a{
+	color: black;
+}
+.navbar a:hover{
+	color: black;
+}
+#section1{
+	background: white;
+	padding: 2%;
+}
+.card{
+	text-align: center;
+}
+.row{
+	margin-top: 2%;
+}
+.card-img-top{
+	height: 60%;
+}
+#section2{
+	background: #988D6F;
+	padding: 2%;
+}
+#foot{
+	background: #313131;
+	color: white;
+	height: 5%;
+	border-top: 1px solid white;
+}
+.carousel-caption{
+	color:black;
+	background: rgba(244, 244, 244,.7);
+	
+}
+#tableu{
+	text-align: center;
+	font-size: .7rem;
+}
+#hehehe{
+	position:block; 
+	margin-right: 10%;
+}
+#section3{
+	position:block;
+	padding: 3%;
+}
