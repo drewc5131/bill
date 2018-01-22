@@ -1,0 +1,128 @@
+html,body{
+	background: #e7dfdd;
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+}
+
+h1,h2,h3{
+    color: #35c9dd;
+}
+
+h3{
+    margin: 10px 0;
+}
+
+a{
+    color: #238acb;
+}
+
+a img{
+    border: none;
+}
+
+pre{
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+    background: #646464;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    background: #0E0B16;
+    z-index: 100001;
+}
+
+.header .logo{
+	position:fixed;
+    margin:auto;
+    padding: 22px;
+    padding-left: 30px;
+}
+
+
+.horizon{
+    line-height: 0;
+    z-index: 100;
+    width: 3000px;
+}
+
+.middle{
+    z-index: 250;
+    line-height: 0;
+    width: 4500px;
+}
+
+.front{
+    z-index: 500;
+    top: 150px;
+    width: 4500px;
+}
+
+
+.page{
+    top: 0px;
+    width: 500px;
+    background:rgba(162, 57, 202, .2);
+    padding: 10px 30px;
+    border: 1px #eee solid;
+    position: absolute;
+}
+
+.description{
+    left: 500px;
+}
+
+.documentation{
+    left: 1500px;
+    width: 700px;
+}
+
+.options{
+    width: 700px;
+    left: 2650px;
+}
+
+.download{
+    width: 500px;
+    left: 3900px;
+}
+#overlay {
+    position: fixed;
+	opacity: .5;
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('../images/bgpic.gif');
+    z-index: 10000; 
+}
+#animegirl1 {
+    position: fixed;
+	opacity: .8;
+    top: 18%; 
+    left: 0%;
+    right: 0;
+    bottom: 0;
+    background: url('../images/animegirl1.gif');
+    z-index: 10001; 
+}
+#dance {
+    position: fixed;
+	opacity: 1;
+    top: 18%; 
+    left: 0%;
+    right: 0;
+    bottom: 0;
+    background: url('../images/dance.png');
+    z-index: 10002; 
+}
